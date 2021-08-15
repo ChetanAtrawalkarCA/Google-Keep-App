@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineDelete } from "react-icons/ai";
 
+//display notes with some functions
 function Note({ title, content, onDelete, id }) {
   return (
     <div className="note">
