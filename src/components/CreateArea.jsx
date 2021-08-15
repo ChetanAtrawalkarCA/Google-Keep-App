@@ -10,6 +10,7 @@ function CreateArea({ onAdd }) {
     content: "",
   });
 
+  // check user what type in input feild and store to particular state
   function handleChange(e) {
     const { name, value } = e.target;
     setNote((preValue) => {
@@ -23,6 +24,7 @@ function CreateArea({ onAdd }) {
     setExpanded(true);
   }
 
+  // submit notes with details and blanck the all input feild
   function submitButton(event) {
     onAdd(note);
     setNote({
