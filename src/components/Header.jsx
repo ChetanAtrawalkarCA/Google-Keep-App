@@ -1,5 +1,6 @@
 import React from "react";
 
+// heading part
 function Header() {
   const logo = (
     <img
